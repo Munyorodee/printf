@@ -12,19 +12,17 @@ int print_rev(va_list r);
 int print_bin(va_list b);
 int print_perc(va_list p);
 int print_unsig(va_list u);
-int print_octal(va_list o);
-
 
 /**
-  * struct code_format - Struct format
-  *
-  * @sc: The specifiers
-  * @f: The function associated
-  */
+ * struct code_format - Struct format
+ *
+ * @sc: The specifiers
+ * @f: The function associated
+ */
 typedef struct code_format
 {
-	char *sc;
-	int (*f)(va_list);
+  char *sc;
+  int (*f)(va_list);
 } code_f;
 
-#endif 
+#endif
