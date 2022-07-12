@@ -2,7 +2,6 @@
 #define MAINH
 
 #include <stdarg.h>
-int _putchar(char c);
 
 /**
  * struct code_format - Struct format function
