@@ -10,7 +10,6 @@ int print_int(va_list i);
 int print_dec(va_list d);
 int print_rev(va_list r);
 int print_bin(va_list b);
-int print_perc(va_list p);
 
 /**
  * struct code_format - Struct format function
