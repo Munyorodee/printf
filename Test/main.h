@@ -13,7 +13,7 @@ int print_bin(va_list b);
 int print_perc(va_list p);
 
 /**
- * struct code_format - Struct format
+ * struct code_format - Struct format function
  *
  * @sc: The specifiers
  * @f: The function associated
