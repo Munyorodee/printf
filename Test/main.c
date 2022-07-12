@@ -10,14 +10,11 @@
 int main(void)
 {
 	int len;
-   	int len2;
+	int len2;
 	int alen;
 	int elen;
 	char c = 'z';
 	char *str = "sometimes    by";
-	/*char *str = NULL;*/
-	/*unsigned int ui;*/
-   	/*void *addr;*/
 
 	len = _printf("Let's try to printf a simple sentence.\n");
 	len2 = printf("Let's try to printf a simple sentence.\n");
@@ -64,19 +61,16 @@ int main(void)
 	printf("Actual     : %i\n", alen);
 	printf("Expected   : %sschool\n", "holberton");
 	_printf("Actual     : %sschool\n", "holberton");
-	/*elen = printf("Expected: %c%%%c%%%%%s%c%s%s\n", INT_MAX, INT_MIN, "hello", 0, "holberton", 0);*/
-	/*alen = _printf("Actual  : %c%%%c%%%%%s%c%s%s\n", INT_MAX, INT_MIN, "hello", 0, "holberton",0);*/
 	printf("Expected: %d\n", elen);
 	_printf("Actual  : %d\n", alen);
 	printf("Expected   :%%%d\n", len);
 	_printf("Actual : %%%d\n", len);
 	_printf("Len:[%d]\n", len);
-    	printf("Len:[%d]\n", len2);
-        /*printf("Unknown:[%d]\n");*/
-        _printf("Unknown:[%r]\n", "strings");
+	printf("Len:[%d]\n", len2);
+	_printf("Unknown:[%r]\n", "strings");
 	_printf("Unknown:[%r]\n");
 	_printf("word %b\n", 10);
-	len =_printf("word %R\n", str);
+	len = _printf("word %R\n", str);
 	_printf("%d\n", len);
 	/*printf("Expected %b\n", 98);*/
 	return (0);
