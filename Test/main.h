@@ -11,7 +11,6 @@ int print_dec(va_list d);
 int print_rev(va_list r);
 int print_bin(va_list b);
 int print_perc(va_list p);
-int print_unsig(va_list u);
 
 /**
  * struct code_format - Struct format
